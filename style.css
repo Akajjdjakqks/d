@@ -1,0 +1,75 @@
+body {
+    border: none;
+    font-family: iranbLack;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: gainsboro;
+    box-shadow: 0vh 0vh 5vh rgb(0, 0, 0);
+}
+
+.table1 {
+    width: 35vh; 
+    text-align: center;
+    margin-left: auto;
+    border-color: white;
+    background-color: rgb(138, 138, 138); border-radius: 1vh;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.td1 {
+    width: 10vh;
+    height: 3.5vh;
+    margin-left: auto;
+    border: none;
+}
+
+.table2{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.inp2 {
+    width: 3vh;
+    height: 3vh;
+    border-radius: 0.5vh;
+    border: 0.2vh solid;
+    transition: all 0.5s ease;
+}
+
+.td2 {
+    align-items: start;
+    justify-content: start;
+    display: grid;
+    height: 3vh;
+    border: none;
+}
+
+.inp1 {
+    margin-left: 0.5vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    border-radius: 0.5vh;
+}
+
+.table1:hover {
+    transform: scale(1.2);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    box-shadow: 0vh 0vh 3vh black;
+    border-radius: 5vh;
+}
+
+.inp2:hover {
+    box-shadow: 0vh 0vh 1vh black;
+    transform: scale(1.05);
+    margin-top: 0.3vh;
+    border-radius: 1vh;
+}
